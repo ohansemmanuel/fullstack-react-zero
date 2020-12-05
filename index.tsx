@@ -1,7 +1,3 @@
-import React from "react";
+import { HomePage } from "./client/pages";
 
-const App = () => {
-  return <h1>Hello!</h1>;
-};
-
-export default App;
+export default () => <HomePage />;

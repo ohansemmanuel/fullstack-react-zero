@@ -2,12 +2,12 @@ import React from "react";
 import {
   Flex,
   Box,
-  Heading,
   Text,
   Button,
   Center,
   Image,
   Spacer,
+  Heading,
 } from "@chakra-ui/react";
 
 export const Home = () => {
@@ -40,7 +40,7 @@ export const Home = () => {
                     borderRadius="full"
                     boxSize="100px"
                     src="https://i.imgur.com/95knkS8.png"
-                    alt="Segun Adebayo"
+                    alt="My Avatar"
                   />
                   <Text textStyle="p" color="black">
                     Angela McReynolds
@@ -112,6 +112,8 @@ export const Home = () => {
 
         <Box>
           <Button
+            as="a"
+            href="/projects"
             bg="linear-gradient(96.91deg, #BDC3DD 5.3%, #000000 83.22%)"
             w={"100%"}
             color="white"

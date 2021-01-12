@@ -57,12 +57,14 @@ export const Home = () => {
                   </Button>
                   <Spacer />
                   <Button
+                    as="a"
+                    href="/about"
                     borderRadius={6}
                     py={6}
                     px={8}
                     bg="linear-gradient(96.91deg, rgba(255, 255, 255, 0.44) 5.3%, #BDC3DD 83.22%)"
                   >
-                    About me{" "}
+                    About me
                   </Button>
                 </Flex>
                 <Box mt={6}>

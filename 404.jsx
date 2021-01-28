@@ -20,7 +20,7 @@ export default () => (
           Go home
         </Link>
       </Text>
-      <Image src="https://i.imgur.com/lA3vpFh.png" />
+      <Image src="https://i.imgur.com/lU18zMp.jpg" />
     </Container>
   </PageWrapper>
 );
